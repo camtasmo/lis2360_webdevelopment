@@ -1,7 +1,8 @@
 @charset "UTF-8";
-/* CSS Document created by Cameron Schroeder, March 18, 2019 */
+/* CSS Document created by Cameron Schroeder, April 7th, 2019 */
 
 body {
+	margin: 0;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 2.2em;
@@ -13,21 +14,22 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
+	padding: 5px 18px;
 	color: #CCCCCC;
 }
 h1 {
-	font-size: 30px;
-	padding: 6px 1px;
+	font-size: 32px;
+	padding: 5px 18px;
 	font-variant: small-caps;
 	letter-spacing: .35em;
 	line-height: 1.5em;
 }
 h2 {
-	font-size: 18px;
-	padding: 5px;
+	font-size: 20px;
+	padding: 12px 18px;
 	font-variant: small-caps;
 	letter-spacing: 0.25em;
-	background-color: #1F6926;
+	margin: 0;
 }
 
 /* link styles ---------------------------- */
@@ -38,11 +40,14 @@ a:link {
 }
 a:visited {
 	font-weight: bold;
-	color: #49F462;
+	color: #61C79E;
 	text-decoration: underline;
 }
 a:hover {
 	color: #DE551B;
+}
+a:active {
+	color: #C79330;
 }
 
 /* list styles ----------------------------- */
@@ -57,32 +62,73 @@ ol {
 
 /* table styles -------------------------------------- */
 table {
-	border: solid #CCCCCC;
+	border: solid #1D1F1E;
+	padding-left: 16px;
 }
 td {
-	padding: 6px;
-	border: solid #CCCCCC;
+	padding: 1px;
+	border: solid #49F462;
 }
 th {
 	font-weight: bold;
-	background-color: #1F6926;
+	background-color: #000;
 	text-align: center;
-	padding: 8px;
-	border: solid #CCCCCC 2px;
+	padding: 1px;
+	border: solid #49F462 1px;
 }
 
 /* border styles ------------------------------------ */
 hr {
-	border: solid #49F462 2px;
+	border: solid #49F462 1px;
 }
-
 img {
-	border: solid #49F462 3px;
 	padding: 6px;
-
 }
 iframe {
-	border: solid #49F462 3px;
 	padding: 6px;
 	margin: 6px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 1120px;
+	margin: 0 auto;
+	border: 1px solid #49F462;
+	background-color: #1D1F1E;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	border-bottom: 1px solid #49F462;
+	background-color: #000;
+}
+
+#content{
+	width: 670px;
+	float: left;
+	background-color: #1D1F1E;
+}
+
+#sidebar{
+	width: 400px;
+	float: left;
+	background-color: #1D1F1E;
+	margin-top: 55px;
+	margin-right: 30px;
+}
+
+#sidebar p{
+	padding: 8px;
+	background: #000;
+	border: 1px solid #49F462;
+	border-radius: 10px;
+	box-shadow: 16px 16px 8px #0F0F0F;
+}
+
+#footer{
+	border-top: 1px solid #49F462;
+	width: 100%;
+	background-color: #000;
+	clear: both;
 }
