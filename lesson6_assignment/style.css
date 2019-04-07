@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document created by Cameron Schroeder, March 18, 2019 */
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 2.2em;
+	color: #FFFFFF;
+	background-color: #052621;
+	padding: 2px 45px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #CCCCCC;
+}
+h1 {
+	font-size: 30px;
+	padding: 6px 1px;
+	font-variant: small-caps;
+	letter-spacing: .35em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 18px;
+	padding: 5px;
+	font-variant: small-caps;
+	letter-spacing: 0.25em;
+	background-color: #1F6926;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #49F462;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #49F462;
+	text-decoration: underline;
+}
+a:hover {
+	color: #DE551B;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/gizmo.png);
+	padding: 6px;
+	margin-left: 18px;
+}
+ol {
+	margin-left: 20px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #CCCCCC;
+}
+td {
+	padding: 6px;
+	border: solid #CCCCCC;
+}
+th {
+	font-weight: bold;
+	background-color: #1F6926;
+	text-align: center;
+	padding: 8px;
+	border: solid #CCCCCC 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #49F462 2px;
+}
+
+img {
+	border: solid #49F462 3px;
+	padding: 6px;
+
+}
+iframe {
+	border: solid #49F462 3px;
+	padding: 6px;
+	margin: 6px;
+}
