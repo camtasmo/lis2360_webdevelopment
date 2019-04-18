@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document created by Cameron Schroeder, April 7th, 2019 */
+
+body {
+	margin: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 2.2em;
+	color: #FFFFFF;
+	background-color: #052621;
+	padding: 2px 45px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	padding: 5px 18px;
+	color: #CCCCCC;
+}
+h1 {
+	font-size: 32px;
+	padding: 5px 18px;
+	font-variant: small-caps;
+	letter-spacing: .35em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 20px;
+	padding: 12px 18px;
+	font-variant: small-caps;
+	letter-spacing: 0.25em;
+	margin: 0;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #49F462;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #61C79E;
+	text-decoration: underline;
+}
+a:hover {
+	color: #DE551B;
+}
+a:active {
+	color: #C79330;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/gizmo.png);
+	padding: 6px;
+	margin-left: 18px;
+}
+ol {
+	margin-left: 20px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #1D1F1E;
+	padding-left: 16px;
+}
+td {
+	padding: 1px;
+	border: solid #49F462;
+}
+th {
+	font-weight: bold;
+	background-color: #000;
+	text-align: center;
+	padding: 1px;
+	border: solid #49F462 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #49F462 1px;
+}
+img {
+	padding: 6px;
+}
+iframe {
+	padding: 6px;
+	margin: 6px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 1120px;
+	margin: 0 auto;
+	border: 1px solid #49F462;
+	background-color: #1D1F1E;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	border-bottom: 1px solid #49F462;
+	background-color: #000;
+}
+
+#content{
+	width: 670px;
+	float: left;
+	background-color: #1D1F1E;
+}
+
+#sidebar{
+	width: 400px;
+	float: left;
+	background-color: #1D1F1E;
+	margin-top: 55px;
+	margin-right: 30px;
+}
+
+#sidebar p{
+	padding: 8px;
+	background: #000;
+	border: 1px solid #49F462;
+	border-radius: 10px;
+	box-shadow: 16px 16px 8px #0F0F0F;
+}
+
+#footer{
+	border-top: 1px solid #49F462;
+	width: 100%;
+	background-color: #000;
+	clear: both;
+}
